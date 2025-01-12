@@ -1,0 +1,16 @@
+
+/data folder contains the emdat_south_states.csv dataset with a State column and only the 6 southers states. And datos_NOAA_sur_EEUU_4.csv with the climate of each day of 5 stations of each south states
+
+utils_data_preprocessing.py contains the methods to prepare the data for model training and doing feature engineering (aggregagation, lags, ma, etc)
+
+lstm_classifer.py contains the methods for training and evaluating a lstm
+
+post_inference.py is for reviwing the training results
+
+auto-pipeline-lstm.ipynb contains the full and complete pipeline where you can tune the HYPER-PARAMETERS
+
+predict_lstm.ipynb where you can use the fine tuned parameters to predict the future and generate csv
+
+/predictions contains the indivudual predictions and join_predictions_csv.ipynb is a script to join all csv from a /predictions into a full_all_predictions.csv outside /predictions
+
+
