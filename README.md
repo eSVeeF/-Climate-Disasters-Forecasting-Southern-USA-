@@ -1,4 +1,7 @@
-# Disaster Prediction in the Southern United States ![image](https://github.com/user-attachments/assets/e717fc06-f2d4-4ca1-96b6-a78c4a24bd3c)
+# Disaster Prediction in the Southern United States 
+<p align="right">
+  <img src="https://github.com/user-attachments/assets/e717fc06-f2d4-4ca1-96b6-a78c4a24bd3c" alt="Image Description" width="200" />
+</p>
 
 This repository contains the code and configuration for predicting tornadoes, cyclones, and floods in the southern United States. The prediction models can forecast disasters between 21 and 5 days in advance, using LSTM
 
@@ -58,5 +61,7 @@ The models are trained on historical data specific to the southern United States
 The prediction performance metrics include:
 - F1-Score, Precision, Recall, and Refined Recall for disaster prediction.
 - Region-specific accuracy analysis.
+
+  
 ![image](https://github.com/user-attachments/assets/6ef87921-e2c3-4ad9-8a32-e454b2cbe620)
 ![image](https://github.com/user-attachments/assets/e9055d1e-06d7-4dd1-93f7-f06bc702538a)
