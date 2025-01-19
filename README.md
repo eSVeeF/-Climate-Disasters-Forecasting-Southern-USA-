@@ -21,7 +21,7 @@ We offer three model configurations: **Small**, **Medium**, and **Large**, each 
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="https://github.com/user-attachments/assets/f5475f6f-0bbf-407f-8630-aeffadfd9004" alt="Image 1 Description" width="600" />
-  <img src="https://github.com/user-attachments/assets/e0e39954-190e-49aa-a077-4150c1f965a7" alt="Image 2 Description" width="620" />
+  <img src="https://github.com/user-attachments/assets/e0e39954-190e-49aa-a077-4150c1f965a7" alt="Image 2 Description" width="604" />
   </div>
 
 
