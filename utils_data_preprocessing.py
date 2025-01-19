@@ -151,9 +151,6 @@ class Utils_data_preprocessing:
 
         # 1.Aggregate Station Data
         data_grouped = data.groupby(['state', 'DATE']).agg({
-        'VPDMAX': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
-        'VPDMIN': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
-        'TDMEAN': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
         'TAVG': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
         'PRES': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
         'AWND': ['mean', 'max', 'min'],# 'std'],
@@ -447,9 +444,6 @@ class Utils_data_preprocessing:
 
         # 1.Aggregate Station Data, if 3 station only have DATE until 20th of Oct, and the rest 2 have until 24th Oct, that days will appear and will be computed using only the stations that have data
         data_grouped = data.groupby(['state', 'DATE']).agg({
-        'VPDMAX': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
-        'VPDMIN': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
-        'TDMEAN': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
         'TAVG': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
         'PRES': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
         'AWND': ['mean', 'max', 'min'],# 'std'],

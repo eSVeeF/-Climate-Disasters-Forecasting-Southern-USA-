@@ -231,10 +231,10 @@ class Lstm_classifier:
             
             # Calculate precision, recall, and F1-score
             # if precision (tp/tp+fp) has zero_division, that is that there where no tp and no fp, so precision should not be taken into account later
-            precision = precision_score(y_true, y_pred, zero_division=np.nan)
+            precision = precision_score(y_true, y_pred, zero_division=0)
             # if recall (tp/tp+fn) has zero_division, that is that there where no tp and no fn, so recall should not be taken into account later
-            recall = recall_score(y_true, y_pred, zero_division=np.nan)
-            f1 = f1_score(y_true, y_pred, zero_division=np.nan)
+            recall = recall_score(y_true, y_pred, zero_division=0)
+            f1 = f1_score(y_true, y_pred, zero_division=0)
 
             precision_scores.append(precision)
             recall_scores.append(recall)
@@ -251,7 +251,7 @@ class Lstm_classifier:
 
         # for threshold 0.5
         y_pred_05 = [1 if prob >= 0.5 else 0 for prob in y_probs]
-        metrics_05_threshold = (f1_score(y_true, y_pred_05, zero_division=np.nan), precision_score(y_true, y_pred_05, zero_division=np.nan) , recall_score(y_true, y_pred_05, zero_division=np.nan))
+        metrics_05_threshold = (f1_score(y_true, y_pred_05, zero_division=0), precision_score(y_true, y_pred_05, zero_division=0) , recall_score(y_true, y_pred_05, zero_division=0))
 
         if verbose > 0:
             # Output the results

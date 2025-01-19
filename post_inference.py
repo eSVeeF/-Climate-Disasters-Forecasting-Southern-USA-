@@ -28,9 +28,6 @@ class Post_inference:
         """
         # 1.Aggregate Station Data
         data_grouped = data.groupby(['state', 'DATE']).agg({
-        'VPDMAX': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
-        'VPDMIN': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
-        'TDMEAN': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
         'TAVG': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
         'PRES': ['mean', 'max', 'min'],# 'std'], # NEW DATA COLUMN
         'AWND': ['mean', 'max', 'min'],# 'std'],
@@ -402,7 +399,7 @@ class Post_inference:
         print(f'Number of disasters in this period {len(disaster_indices)}')
         print(f'refined_recall when predicting between {maximum_days_prior} - {minimum_days_prior} days previous a disaster: {refined_recall:.3f}')
 
-        return refined_recall
+        return len(disaster_indices), refined_recall
     
 if __name__ == "__main__":
     print("Running post_inference.py directly")
