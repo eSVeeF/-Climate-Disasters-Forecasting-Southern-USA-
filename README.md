@@ -43,7 +43,7 @@ We offer three model configurations: **Small**, **Medium**, and **Large**, each 
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="https://github.com/user-attachments/assets/f5475f6f-0bbf-407f-8630-aeffadfd9004" alt="Image 1 Description" width="600" />
-  <img src="https://github.com/user-attachments/assets/9087f1d6-0fa7-4458-93a4-d877ee63721c" alt="Image 2 Description" width="620" />
+  <img src="https://github.com/user-attachments/assets/e0e39954-190e-49aa-a077-4150c1f965a7" alt="Image 2 Description" width="620" />
   </div>
 
 
@@ -68,5 +68,5 @@ The prediction performance metrics include:
 - F1-Score, Precision, Recall, and Refined Recall for disaster prediction.
 - Region-specific accuracy analysis.
       
-![image](https://github.com/user-attachments/assets/6ef87921-e2c3-4ad9-8a32-e454b2cbe620)
-![image](https://github.com/user-attachments/assets/e9055d1e-06d7-4dd1-93f7-f06bc702538a)
+![image](https://github.com/user-attachments/assets/d229a2d8-1428-4f20-8edc-833808351cea)
+![image](https://github.com/user-attachments/assets/ff3ca5be-553e-45cb-8bc0-acc9a2cc2c49)
