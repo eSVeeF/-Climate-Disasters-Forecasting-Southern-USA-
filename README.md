@@ -3,7 +3,7 @@
     <img src="https://github.com/user-attachments/assets/e717fc06-f2d4-4ca1-96b6-a78c4a24bd3c" alt="Image Description" width="150" />
   </div>
 
-This repository contains the code and configuration for predicting tornadoes, cyclones, and floods in the southern United States. The prediction models can forecast disasters between 21 and 5 days in advance, using LSTM
+This repository contains the code and configuration for predicting tornadoes, cyclones, and floods in the southern United States. The prediction models can forecast disasters between 21 and 5 days in advance, using LSTM with **8 hyperparameters** and **7 data parameters**
 
 ## Key Features
 
@@ -18,28 +18,6 @@ This repository contains the code and configuration for predicting tornadoes, cy
 
 ## Model Configurations
 We offer three model configurations: **Small**, **Medium**, and **Large**, each designed to balance resource usage and prediction accuracy.
-
-### 1. Small Model
-- **Units**: 75
-- **Learning Rate**: 1e-4
-- **Epochs**: 5
-- **Dropout**: 0.2
-- **L2 Regularizer Weight**: 0.1
-
-### 2. Medium Model (x2 of Small)
-- **Units**: 150
-- **Learning Rate**: 1e-5
-- **Epochs**: 8
-- **Dropout**: 0.2
-- **L2 Regularizer Weight**: 0.01
-
-### 3. Large Model (x6 of Small)
-- **Units**: 450
-- **Learning Rate**: 1e-6
-- **Epochs**: 20
-- **Dropout**: 0.2
-- **L2 Regularizer Weight**: 0.001
-- **Architecture**: Two LSTM layers with **8 hyperparameters** and **7 data parameters**.
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="https://github.com/user-attachments/assets/f5475f6f-0bbf-407f-8630-aeffadfd9004" alt="Image 1 Description" width="600" />
