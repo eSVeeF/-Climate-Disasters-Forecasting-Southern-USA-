@@ -1,7 +1,6 @@
   # Disaster Prediction in the Southern United States 
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
-  <div style="flex: 1;">
     <p>
       This repository contains the code and configuration for predicting tornadoes, cyclones, and floods in the southern United States. The prediction models can forecast disasters between 21 and 5 days in advance, using LSTM
     </p>
@@ -9,8 +8,6 @@
   <div style="flex: 1; text-align: right;">
     <img src="https://github.com/user-attachments/assets/e717fc06-f2d4-4ca1-96b6-a78c4a24bd3c" alt="Image Description" width="200" />
   </div>
-</div>
-
 
 
 ## Key Features
@@ -49,6 +46,12 @@ We offer three model configurations: **Small**, **Medium**, and **Large**, each 
 - **L2 Regularizer Weight**: 0.001
 - **Architecture**: Two LSTM layers with **8 hyperparameters** and **7 data parameters**.
 
+  <div style="display: flex; justify-content: space-between; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/f5475f6f-0bbf-407f-8630-aeffadfd9004" alt="Image 1 Description" width="200" />
+  <img src="https://github.com/user-attachments/assets/9087f1d6-0fa7-4458-93a4-d877ee63721c" alt="Image 2 Description" width="200" />
+  </div>
+
+
 ## Dataset
 The models are trained on historical data specific to the southern United States. The dataset includes:
 - Historical records of tornadoes, cyclones, and floods.
@@ -69,7 +72,6 @@ The models are trained on historical data specific to the southern United States
 The prediction performance metrics include:
 - F1-Score, Precision, Recall, and Refined Recall for disaster prediction.
 - Region-specific accuracy analysis.
-
-  
+      
 ![image](https://github.com/user-attachments/assets/6ef87921-e2c3-4ad9-8a32-e454b2cbe620)
 ![image](https://github.com/user-attachments/assets/e9055d1e-06d7-4dd1-93f7-f06bc702538a)
