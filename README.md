@@ -1,6 +1,6 @@
   # Disaster Prediction in the Southern United States 
   <div style="flex: 1; text-align: right;">
-    <img src="https://github.com/user-attachments/assets/e717fc06-f2d4-4ca1-96b6-a78c4a24bd3c" alt="Image Description" width="50" />
+    <img src="https://github.com/user-attachments/assets/e717fc06-f2d4-4ca1-96b6-a78c4a24bd3c" alt="Image Description" width="100" />
   </div>
 
 This repository contains the code and configuration for predicting tornadoes, cyclones, and floods in the southern United States. The prediction models can forecast disasters between 21 and 5 days in advance, using LSTM
@@ -42,8 +42,8 @@ We offer three model configurations: **Small**, **Medium**, and **Large**, each 
 - **Architecture**: Two LSTM layers with **8 hyperparameters** and **7 data parameters**.
 
   <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/f5475f6f-0bbf-407f-8630-aeffadfd9004" alt="Image 1 Description" width="400" />
-  <img src="https://github.com/user-attachments/assets/9087f1d6-0fa7-4458-93a4-d877ee63721c" alt="Image 2 Description" width="400" />
+  <img src="https://github.com/user-attachments/assets/f5475f6f-0bbf-407f-8630-aeffadfd9004" alt="Image 1 Description" width="600" />
+  <img src="https://github.com/user-attachments/assets/9087f1d6-0fa7-4458-93a4-d877ee63721c" alt="Image 2 Description" width="700" />
   </div>
 
 
