@@ -1,8 +1,5 @@
   # Disaster Prediction in the Southern United States 
-  <div style="flex: 1; text-align: right;">
-    <img src="https://github.com/user-attachments/assets/e717fc06-f2d4-4ca1-96b6-a78c4a24bd3c" alt="Image Description" width="150" />
-  </div>
-
+  
 This repository contains the code and configuration for predicting tornadoes, cyclones, and floods in the southern United States. The prediction models can forecast disasters between 21 and 5 days in advance, using LSTM with **8 hyperparameters** and **7 data parameters**
 
 ## Key Features
