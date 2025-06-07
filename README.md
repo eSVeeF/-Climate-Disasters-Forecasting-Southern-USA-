@@ -119,11 +119,7 @@ clf.save_model('trained_models/Texas_Flood_pred_prob_next_21_days.keras')
 
 ### 4. Prediction
 
-Generate future disaster probability forecasts using `predict_lstm.ipynb` or the CLI:
-
-```bash
-python post_inference.py --state Texas --event Flood --next_days 21
-```
+Generate future disaster probability forecasts using `predict_lstm.ipynb`
 
 This will output CSV files in `predictions/`.
 
