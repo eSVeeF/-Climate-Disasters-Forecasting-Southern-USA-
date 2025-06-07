@@ -1,4 +1,4 @@
-# Disaster Forecasting in the Southern United States
+# 🌪️⛈️ Disaster Forecasting in the Southern United States
 
 This repository provides a complete pipeline for forecasting the likelihood of climate-related disasters (floods and storms) occurring in Southern U.S. states up to 21 days in advance, using LSTM-based time series modeling.
 
