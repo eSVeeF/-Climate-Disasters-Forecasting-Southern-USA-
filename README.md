@@ -72,8 +72,8 @@ This repository provides a complete pipeline for forecasting the likelihood of c
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/Climate-Disasters-Forecasting-Southern-USA.git
-   cd Climate-Disasters-Forecasting-Southern-USA
+   git clone https://github.com/eSVeeF/-Climate-Disasters-Forecasting-Southern-USA-.git
+   cd -Climate-Disasters-Forecasting-Southern-USA-
    ```
 
 2. **Install dependencies**
