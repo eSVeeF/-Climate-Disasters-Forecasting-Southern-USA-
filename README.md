@@ -138,6 +138,8 @@ post = Post_inference()
 metrics_df = post.evaluate_predictions(pred_csv, true_labels)
 post.plot_metrics(metrics_df)
 ```
+![image](https://github.com/user-attachments/assets/07433f9a-dbf5-48ca-8e8d-a9acfb41ae1b)
+![image](https://github.com/user-attachments/assets/f16154f3-854b-4d6e-a4d9-afdd6dbdb48e)
 
 ---
 
@@ -146,7 +148,9 @@ post.plot_metrics(metrics_df)
 * **Evaluation Metrics**: F1-Score, Precision, Recall, Refined Recall.
 * **Regional Insights**: Compare performance across states and disaster types.
 
-![Model Performance by State](https://github.com/yourusername/assets/performance_by_state.png)
+![image](https://github.com/user-attachments/assets/ca848384-88a4-40e4-8050-2b7302189bb1)
+![image](https://github.com/user-attachments/assets/9ada4d18-fed4-4d54-b790-3ecf57d9c573)
+
 
 ---
 
